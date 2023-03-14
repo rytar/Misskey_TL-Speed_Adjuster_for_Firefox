@@ -1,0 +1,50 @@
+<!-- 設定画面 -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Misskey TL-Speed Adjuster</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="./popup.css" />
+    </head>
+    <body>
+        <div class="content">
+            <img src="../icons/MTSA_icon-48x48.png" />
+            <h3>Misskey TL-Speed Adjuster</h3>
+            <div>
+                <div>
+                    <img class="icon" src="../icons/home16.png" />
+                    <label><strong>Home</strong></label>
+                    <label id="home_value">100%</label>
+                    <br>
+                    <input type="range" id="home_speed" min="0" max="100" value="100">
+                </div>
+                <br>
+                <div>
+                    <img class="icon" src="../icons/local16.png" />
+                    <label><strong>Local</strong></label>
+                    <label id="local_value">100%</label>
+                    <br>
+                    <input type="range" id="local_speed" min="0" max="100" value="100">
+                </div>
+                <br>
+                <div>
+                    <img class="icon" src="../icons/social16.png" />
+                    <label><strong>Social</strong></label>
+                    <label id="social_value">100%</label>
+                    <br>
+                    <input type="range" id="social_speed" min="0" max="100" value="100">
+                </div>
+                <br>
+                <div>
+                    <img class="icon" src="../icons/global16.png" />
+                    <label><strong>Global</strong></label>
+                    <label id="global_value">100%</label>
+                    <br>
+                    <input type="range" id="global_speed" min="0" max="100" value="100">
+                </div>
+            </div>
+            <div id="result"></div>
+        </div>
+        <script type="text/javascript" src="./popup.js"></script>
+    </body>
+</html>
