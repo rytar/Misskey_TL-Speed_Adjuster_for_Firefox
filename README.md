@@ -1,4 +1,4 @@
-# Misskey_TL-Speed_Adjuster_for_Firefox
+# Misskey TL-Speed Adjuster for Firefox
 ![GitHub](https://img.shields.io/github/license/rytar/Misskey_TL-Speed_Adjuster)
 
 This is a mozilla addons for the reaction shooter on Misskey.
